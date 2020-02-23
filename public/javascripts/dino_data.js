@@ -52,7 +52,7 @@ $.post("https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyB5mleqK0_4
 			console.log(paleoData);
 			//paleoData.records.length
 			document.getElementById("table_of_dinosaurs").innerHTML = "";
-			for (var i = 0; i < 20; i++) {
+			for (var i = 0; i < 1000; i++) {
 				var the_table_row = "";
 				var dis = distance(user_lat,user_lng,paleoData.records[i][latitude],paleoData.records[i][longitude],"M");
 				var radius = Number(document.getElementById("radius").value);
