@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aafabe2b-5320-4352-80ad-e6d6a1f6a314" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/javascripts/dino_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/dino_data.js" afterDir="false" />
-    </list>
+    <list default="true" id="aafabe2b-5320-4352-80ad-e6d6a1f6a314" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/newfolder/DragonHack2020" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -65,7 +62,7 @@
       <workItem from="1582416205544" duration="12095000" />
       <workItem from="1582434208748" duration="9105000" />
       <workItem from="1582477950586" duration="697000" />
-      <workItem from="1582478684393" duration="405000" />
+      <workItem from="1582478684393" duration="886000" />
     </task>
     <servers />
   </component>
@@ -73,10 +70,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1582432260853">
+    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1582479462019">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582432260853" />
+    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582479462019" />
     <state width="1259" height="110" key="GridCell.Tab.0.bottom" timestamp="1582467878379">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
