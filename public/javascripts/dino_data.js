@@ -52,12 +52,10 @@ $.post("https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyB5mleqK0_4
 			console.log(paleoData);
 			//paleoData.records.length
 			document.getElementById("table_of_dinosaurs").innerHTML = "";
-			for (var i = 0; i < 1000; i++) {
+			for (var i = 0; i < 50; i++) {
 				var the_table_row = "";
 				var dis = distance(user_lat,user_lng,paleoData.records[i][latitude],paleoData.records[i][longitude],"M");
 				var radius = Number(document.getElementById("radius").value);
-				console.log(dis);
-				console.log(radius);
 				if(radius > dis){
 				the_table_row = "<tr><td scope=\"row\">" + paleoData.records[i][occurance_id] + "</td><td>" + paleoData.records[i][taxon_name] + "</td><td>" + paleoData.records[i][latitude] + "</td><td>" + paleoData.records[i][longitude] + "</td><td>" + paleoData.records[i][early_age] + "</td><td>" + paleoData.records[i][late_age] + "</td><td>" + paleoData.records[i][min_ma] + "</td><td>" + paleoData.records[i][max_ma] + "</td><td>" + paleoData.records[i][taxon_class] + "</td><td>" + paleoData.records[i][taxon_order] + "</td><td>" + paleoData.records[i][taxon_family] + "</td><td>" + paleoData.records[i][taxon_genus] + "</td><td>" + "<img src=https://paleobiodb.org/data1.2/taxa/thumb.png?id=" + paleoData.records[i][image_id] + ">" + "</td><tr>";    //create table to display dinosaur data
 				}
